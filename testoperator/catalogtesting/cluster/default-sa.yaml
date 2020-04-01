@@ -1,0 +1,13 @@
+apiVersion: v1
+imagePullSecrets:
+- name: regcred
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2020-03-04T23:15:31Z"
+  name: default
+  namespace: cdjohnson
+  resourceVersion: "48348"
+  selfLink: /api/v1/namespaces/cdjohnson/serviceaccounts/default
+  uid: cfb4e023-ce77-4150-be63-a88adabb913a
+secrets:
+- name: default-token-x7l4r

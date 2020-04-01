@@ -1,0 +1,11 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: catalogsource
+  namespace: cdjohnson
+spec:
+  displayName: Test Operators
+  image: quay.io/cdjohnson/testcatalog:latest
+  publisher: IBM
+  sourceType: grpc
+

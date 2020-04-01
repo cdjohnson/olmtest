@@ -1,0 +1,12 @@
+apiVersion: v1
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJxdWF5LmlvL2Nkam9obnNvbi90ZXN0Y2F0YWxvZyI6eyJ1c2VybmFtZSI6ImNkam9obnNvbiIsInBhc3N3b3JkIjoiVzV5Nm9UYjZDWmlXIiwiYXV0aCI6IlkyUnFiMmh1YzI5dU9sYzFlVFp2VkdJMlExcHBWdz09In19fQ==
+kind: Secret
+metadata:
+  creationTimestamp: "2020-03-04T23:37:31Z"
+  name: regcred
+  namespace: cdjohnson
+  resourceVersion: "48147"
+  selfLink: /api/v1/namespaces/cdjohnson/secrets/regcred
+  uid: ae3df294-a365-4bbd-89ec-7499bde03b1e
+type: kubernetes.io/dockerconfigjson
